@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;" />
+		<title>Trabalhe conosco</title>
+	</head>
+	<body bgcolor=#ffffe6 topmargin="30">
+		<form name="formCadastro">
+		<h2 align="center"><font size="6">Preencha o Formulario</font></h2>
+		<fieldset>
+		<legend>| Identificação |</legend>
+		<label for="txtNome">Nome:</label>
+		<input name="txtNome" maxlength="50" size="50" />
+		<p><label for="txtRG">RG:</label>
+		<input name="txtRG" maxlength="15" size="15" />
+		<label for="txtCPF">CPF:</label>
+		<input name="txtCPF" maxlength="20" size="20" /></p>
+		<p><label for="txtDataNascimento">Data de nascimento:</label>
+		<input type="date" name="txtDataNascimento" /></p>
+		</fieldset>
+		<fieldset>
+		<legend>| Endereço |</legend>
+		<label for="txtEndereco">Logradouro/número:</label>
+		<input name="txtEndereco" maxlength="50" size="50" />
+		<input name="txtNumero" maxlength="8" size="8" />
+		<p><label for="txtBairro">Bairro:</label>
+		<input name="txtBairro" maxlength="40" size="40" /></p>
+		<p><label for="txtCidade">Cidade:</label>
+		<input name="txtCidade" maxlength="40" size="40" /></p>
+		<p><label for="cmbEstado">Estado:</label>
+		<select name="cmbEstado">
+		<option value="AC">Acre</option>
+		<option value="AL">Alagoas</option>
+		<option value="AM">Amazonas</option>
+		<option value="AP">Amapá</option>
+		<option value="BA">Bahia</option>
+		<option value="CE">Ceará</option>
+		<option value="DF">Distrito Federal</option>
+		<option value="ES">Espírito Santo</option>
+		<option value="GO">Goiás</option>
+		<option value="MA">Maranhão</option>
+		<option value="MG">Minas Gerais</option>
+		<option value="MS">Mato Grosso do Sul</option>
+		<option value="MT">Mato Grosso</option>
+		<option value="PA">Pará</option>
+		<option value="PB">Paraíba</option>
+		<option value="PE">Pernambuco</option>
+		<option value="PI">Piauí</option>
+		<option value="PR">Paraná</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RN">Rio Grande do Norte</option>
+		<option value="RO">Rondônia</option>
+		<option value="RR">Roraima</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="SC">Santa Catarina</option>
+		<option value="SE">Sergipe</option>
+		<option value="SP">São Paulo</option>
+		<option value="TO">Tocantins</option>
+		</select></p>
+		<p><label for="txtCEP">CEP:</label>
+		<input name="txtCEP" maxlength="9" size="9" />
+		<label for="txtTelefone">Telefone:</label>
+		<input type="tel" name="txtTelefone" maxlength="20" size="20" /></p>
+		<p><label for="txtEmail">Email:</label>
+		<input type="email" name="txtEmail" maxlength="80" size="80" /></p>
+		</fieldset>
+		<fieldset>
+		<legend>| Sexo |</legend>
+		<input type="radio" name="rbSexo" value="M" />Masculino
+		<input type="radio" name="rbSexo" value="F" />Feminino
+		</fieldset>
+		<fieldset>
+		<legend>| Funções requeridas |</legend>
+		<input type="checkbox" name="chkJornalista" value="JO" />Jornalista<br />
+		<input type="checkbox" name="chkRedator" value="RE" />Redator<br />
+		<input type="checkbox" name="chkEditor" value="ED" />Editor<br />
+		<input type="checkbox" name="chkProgramador" value="PR" />Programador<br />
+		<input type="checkbox" name="chkDivulgador" value="DI" />Divulgador<br />
+
+		</fieldset>
+		<fieldset>
+		<legend>| Formações |</legend>
+		<p><textarea name="biografia" rows="10" cols="100"></textarea></p>
+		</fieldset>
+
+		<br />
+		<input name="btnEnviar" value="Enviar" type="submit">&nbsp;
+		<input name="btnLimpar" value="Limpar" type="reset">
+		</form>
+	</body>
+</html>
